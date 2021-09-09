@@ -1,0 +1,45 @@
+.body {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.register-card {
+  width: 500px;
+  margin-top: 100px;
+  background: #4f5d75;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  padding: 50px;
+  border: none;
+  box-shadow: 4px 4px 10px rgb(32, 32, 32);
+  border-radius: 25px;
+}
+
+.firts_name,
+.lastname,
+.email,
+.credit_card,
+.type_credit_card,
+.password,
+.confirm_password {
+  width: 280px;
+  height: 30px;
+  border: none;
+  border-radius: 25px;
+  outline: none;
+
+  margin-bottom: 10px;
+  margin-top: 10px;
+
+  text-indent: 5%;
+}
+
+.sign-up {
+  width: 280px;
+  height: 30px;
+
+  margin-top: 10px;
+}

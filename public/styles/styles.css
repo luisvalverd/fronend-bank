@@ -11,6 +11,10 @@ html {
   font-family: "Roboto", sans-serif;
 }
 
+#root {
+  height: 100%;
+}
+
 .btn-search {
   height: 30px;
   width: 100px;
