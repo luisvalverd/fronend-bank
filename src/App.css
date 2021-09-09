@@ -2,17 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -35,4 +24,94 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.navbar {
+  background: #2d3142;
+  color: white;
+
+  height: 80px;
+
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.title-navbar {
+  font-size: x-large;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+
+  display: flex;
+  align-items: center;
+
+  margin-left: 20px;
+  transition: 0.25s;
+}
+
+.title-navbar:hover {
+  color: #ef8354;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.search-navbar {
+  display: flex;
+  align-items: center;
+}
+
+#search {
+  border: none;
+  border-radius: 25px;
+  outline: none;
+
+  width: 300px;
+  height: 30px;
+
+  text-indent: 5%;
+  font-size: 700;
+
+  transition: 0.25s;
+}
+
+#search:hover {
+  box-shadow: 0 0 4pt #fff;
+  width: 330px;
+  height: 35px;
+}
+
+#search:focus {
+  box-shadow: 0 0 4pt #fff;
+  width: 330px;
+  height: 35px;
+}
+
+.items-navbar {
+  display: flex;
+  align-content: center;
+
+  margin-right: 20px;
+}
+
+.items-navbar ul {
+  list-style: none;
+  display: flex;
+
+  align-items: center;
+}
+
+.item-link a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-left: 10px;
+  margin-right: 10px;
+
+  transition: 0.25s;
+}
+
+.item-link a:hover {
+  color: #ef8354;
+  font-size: large;
 }
