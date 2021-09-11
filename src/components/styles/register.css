@@ -7,10 +7,12 @@
 .register-card {
   width: 500px;
   margin-top: 100px;
-  background: #4f5d75;
+  background: #2D3142;
 
+	margin-right: 10px;
   display: flex;
   flex-wrap: wrap;
+	align-items: center;
 
   padding: 50px;
   border: none;
@@ -18,14 +20,12 @@
   border-radius: 25px;
 }
 
-.firts_name,
-.lastname,
 .email,
 .credit_card,
 .type_credit_card,
 .password,
 .confirm_password {
-  width: 280px;
+  width: 330px;
   height: 30px;
   border: none;
   border-radius: 25px;
@@ -35,11 +35,69 @@
   margin-top: 10px;
 
   text-indent: 5%;
+	transition: .25s;
 }
 
 .sign-up {
-  width: 280px;
+	width: 330px;
   height: 30px;
 
   margin-top: 10px;
+	border: none;
+	border-radius: 25px;
+	background: #ef8354;
+
+	transition: 0.25s;
+	color: #fff;
+	cursor: pointer;
+	text-transform: uppercase;
+	font-weight: bold;
 }
+
+.sign-up:hover {
+	width: 360px;
+	height: 35px;
+	box-shadow: 0 0 5pt #ef8354;
+	font-size: medium;
+}
+
+.names-register{
+	margin-bottom: 10px;
+}
+
+.firts_name,
+.last_name {
+	margin-left: 8px;
+	margin-right: 9px;
+	width: 155px;
+	height: 30px;
+	border: none;
+	border-radius: 25px;
+	outline: none;
+
+	text-indent: 10%;
+	transition: 0.25s;
+}
+
+.firts_name:hover, .last_name:hover {
+	width: 170px;
+	height: 35px;
+	box-shadow: 0 0 5pt #fff;
+}
+
+.email:hover, .credit_card:hover, .type_credit_card:hover, .password:hover, .confirm_password:hover {
+	width: 360px;
+	height: 35px;
+	box-shadow: 0 0 5pt #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
