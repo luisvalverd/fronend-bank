@@ -1,12 +1,18 @@
 import { Component } from "react";
+import '../components/styles/login.css';
 
 export default class Login extends Component {
   render() {
     return (
-      <div className="login">
-        <input type="email" />
-        <input type="password" />
-      </div>
+			<div className="body">
+				<div className="card-login">
+					<form>
+						<input className="email-login" type="email" placeholder="Email" />
+						<input className="password-login" type="password" placeholder="password" />
+						<button type="submit" className="sign-in">sign in</button>
+					</form>
+				</div>
+			</div>
     );
   }
 }
