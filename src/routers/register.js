@@ -6,6 +6,9 @@ export default class Register extends Component {
     return (
       <div className="body">
         <div className="register-card">
+					<div className="card-title">
+						<label className="title">register</label> 
+					</div>
           <form>
 						<div className="names-register">
 							<input type="text" className="firts_name" placeholder="Name"/>

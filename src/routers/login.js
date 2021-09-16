@@ -6,6 +6,7 @@ export default class Login extends Component {
     return (
 			<div className="body">
 				<div className="card-login">
+					<label className="card-title">login</label>	
 					<form>
 						<input className="email-login" type="email" placeholder="Email" />
 						<input className="password-login" type="password" placeholder="password" />
