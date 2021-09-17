@@ -79,4 +79,27 @@
 	text-align:	justify;
 }
 
+.transactions-user {
+	width: 1000px;
+	height: auto;
+
+	padding: 10px;
+	margin-top: 50px;
+	border-radius: 20px;
+	
+	box-shadow: 5px 5px 20px #99a3a4; 
+}
+
+.transactions-user table {
+	width: 100%;
+}
+
+.transactions-user table thead tr {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+
+
+
 

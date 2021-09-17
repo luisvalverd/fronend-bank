@@ -41,9 +41,23 @@ export default class Home extends Component {
 					</div>
 				</div>
 				<div className="transactions-user">
+					<table>
+						<thead>
+							<tr>
+								<th>ID</th>
+								<th>Name</th>
+								<th>Lastname</th>
+								<th>Email</th>
+								<th>Money</th>
+							</tr>
+						</thead>
+						<tbody>
 						
+						</tbody>
+					</table>
 				</div>
 			</div>
 		);
 	}
 }
+
