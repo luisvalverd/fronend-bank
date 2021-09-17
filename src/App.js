@@ -48,7 +48,14 @@ function App() {
             <Login />
           </Route>
           <Route path="/">
-            <Home />
+            <Home
+							name="luis"
+							lastname="valverde"
+							gender="masculine"
+							money="1000"
+							cardCredit="123456792384"
+							typeCardCredit="visa"
+							/>
           </Route>
         </Switch>
       </Router>
