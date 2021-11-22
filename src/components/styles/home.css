@@ -26,10 +26,39 @@
 }
 
 @media screen and (max-width: 1040px) {
+	.data-cards {
+		justify-content: center;
+		align-items: center;
+	}	
+}
+
+@media screen and (max-width: 1025px) {
 	.card-data-user{
-		margin-right: 0;
-		margin-bottom: 20px;
+		margin-top: 0;
+		margin-bottom: 0;
+		padding: 0;
+	}	
+}
+
+@media screen and (max-width: 950px){
+	.data-cards {
+		justify-content: center;
+		align-items: center;
+
 	}
+}
+
+
+.data-cards {
+	width: 100%;
+	height: auto;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	
 }
 
 .data label {
@@ -60,9 +89,24 @@
 @media screen and (max-width: 1024px) {
 	.card-user-bank {
 		margin-left: 0;
-		margin-top: 20px;
+		margin-top: 0px;
 	}
 }
+
+@media screen and (max-width: 950px){
+	.card-data-user {
+		padding: 0;
+		margin-right: 15px;
+	}
+}
+
+@media screen and (max-width: 915px){
+	.card-data-user{
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+}
+
 .datas-bank-user ul li{
 	list-style: none;	
 	margin: 10px;
@@ -99,7 +143,43 @@
 	justify-content: space-evenly;
 }
 
+.position-deposits {
+	height: 50px;
+	width: 100%;
 
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+
+.link-deposits {
+	display: flex;
+
+	width: 200px;
+	height: 30px;
+	border-radius: 20px;
+	background: #ef8354;
+
+	justify-content: center;
+	align-items: center;
+	
+	cursor: pointer;
+	transition: .25s;
+}
+
+.link-deposits:hover {
+	width: 225px;
+	height: 35px;
+	font-size: large;
+	box-shadow: 0 0 4pt #ef8354;
+}
+
+.link-deposits {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: medium;
+}
 
 
 

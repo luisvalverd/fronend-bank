@@ -1,0 +1,62 @@
+.body {
+    width: 100%;
+    height: 100%;
+
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-navbar {
+    width: 600px;
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+
+    border-radius: 25px;
+    box-shadow: 5pt 5pt 20pt #99a3a4;
+}
+
+#search {
+    height: 40px;
+    box-shadow: inset 0 0 6pt #99a3a4;
+}
+
+.btn-search {
+    height: 40px;
+}
+
+.card-data-user-deposit {
+    width: 400px;
+    height: auto;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+
+    border-radius: 25px;
+    box-shadow: 5pt 5pt 20pt #99a3a4;
+}
+
+.data-user-deposit {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-find-user {
+    font-size: medium !important;
+}
+
+.data-user {
+    font-size: medium;
+    margin-top: 10px;
+
+}
